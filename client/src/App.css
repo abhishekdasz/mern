@@ -1,0 +1,28 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero
+{
+  height: 100vh;
+  background: url(../src/images/bg.jpg);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-content
+{
+  max-width: 30rem;
+  text-align: center;
+}
+.nav-sec
+{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}

@@ -1,0 +1,35 @@
+.nav-sec
+{
+    background: black;
+    color: azure;
+}
+.nav-container
+{
+    display: flex;
+    justify-content: space-between;
+}
+ul
+{
+    display: flex;
+    gap: 2rem;
+    font-size: 1.3rem;
+    align-items: center;
+}
+ul li
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: azure;
+}
+
+@media screen and (max-width: 772px)
+{
+    ul
+    {
+        flex-direction: column;
+        gap: 0;
+    }
+}

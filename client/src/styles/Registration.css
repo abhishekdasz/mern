@@ -1,0 +1,80 @@
+.reg-section
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #c2bbbb29;
+    height: 100vh;
+}
+.reg-container
+{
+    /* display: flex;
+    justify-content: center; */
+    background: #fff;
+    margin: 1.8rem;
+    padding: 5.7rem 2rem;
+    border-radius: 0.5rem;
+    height: 80%;
+}
+.reg-container form 
+{
+    display: flex;
+    align-items: center;
+}
+.form-left
+{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 15rem;
+}
+.input-div
+{
+    border-bottom: 1px solid gray;
+}
+.input-div label
+{
+    margin-right: 0.4rem;
+}
+form input
+{
+    border: none;
+    outline: none;
+}
+.form-right
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-right img
+{
+    width: 260px;
+}
+.login-redi
+{
+    color: #1217d8;
+}
+button
+{
+    background: #1217d8ad;
+    color: #fff;
+    border: none;
+    padding: 0.7rem 0.2rem;
+    width: 100px;
+}
+button:hover
+{
+    cursor: pointer;
+    background: blue;
+}
+
+
+@media screen and (max-width: 772px)
+{
+    .reg-container form 
+    {
+        flex-direction: column;
+    }
+}
